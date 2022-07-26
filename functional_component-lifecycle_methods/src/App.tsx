@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import UseStateComponent from './components/useStateComponent'
 import UseEffectComponent from './components/useEffectComponent'
+import ParentComponent from './components/useContext/parentComponent'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <header className="App-header">
         < UseStateComponent />
         < UseEffectComponent />
+        < ParentComponent />
       </header>
     </div>
   );
